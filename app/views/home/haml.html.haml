@@ -1,0 +1,6 @@
+= "Hello world"
+
+%div
+  = render BlogComponent.new do |c|
+    = c.header do
+      = link_to "My blog", root_path
